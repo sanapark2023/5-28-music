@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    margin: 0;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+}
+.back{
+    margin-left: 29px;
+    margin-top: 16px
+    font-size: 20px;;
+}
+.title{
+    margin-left: 40px;
+    font-size: 25px;
+}
+.img{
+    width: 325px;
+    height: 276px;
+    display: flex;
+}
+.imgbox{
+    display: flex;
+    justify-content: center;
+}
