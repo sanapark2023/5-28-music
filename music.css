@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 body{
     margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;;
 }
 .title{
     width:100vw;
@@ -32,6 +34,12 @@ body{
     justify-content: space-between 15px;
     flex-direction: row;
     align-items: center;
+    /* 가로 스크롤 방법 알아오기~ */
+    width: 100vw;
+    overflow-x: scroll;
+}
+.setting li{
+    width: 100px;
 }
 .set{
     display: flex;
