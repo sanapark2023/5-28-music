@@ -9,13 +9,13 @@
     <div class="title">
         <h1 class="word">추억쏭</h1>
     </div>
-    <form>
+    <form action="/submit" method="POST">
       <p>년도 선택</p>
       <input type="radio" id="a" name="year" value="a">
       <label for="a">1990~2000년대</label><br>
       <input type="radio" id="b" name="year" value="b">
       <label for="b">2000~2010년대</label><br>
-    <p>장르 선택</p>
+      <p>장르 선택</p>
       <input type="radio" id="ballad" name="genre" value="ballad">
       <label for="ballad">발라드</label><br>
       <input type="radio" id="rap" name="genre" value="rap">
@@ -26,6 +26,7 @@
       <label for="dance">댄스</label><br>
       <input type="radio" id="hiphop" name="genre" value="hiphop">
       <label for="hiphop">힙합</label><br>
+      <p>{{error_message}}</p>
       <input type="submit" value="선택완료">
     </form>
     
